@@ -182,7 +182,7 @@ const Navbar = () => {
               href="#"
               className="border border-blue-dark bg-blue-dark text-white px-8 py-2.2 font-semibold text-xs rounded ml-4 no-underline hover:bg-blue"
             >
-              SIGN UP
+              GET APP
             </a>
             <button className="inline-flex items-center ml-3 mr-5">
               <div className="flex items-center pr-2">
