@@ -25,6 +25,23 @@ const Home = () => {
     }
   };
 
+  const upVote = (e) => {
+    e.likes += 1;
+    const postValues = posts.map((postVal) => {
+      if (postVal.id !== e.id) return postVal;
+      else return e;
+    });
+    setPosts(postValues);
+  };
+  const downVote = (e) => {
+    e.dislikes += 1;
+    const postValues = posts.map((postVal) => {
+      if (postVal.id !== e.id) return postVal;
+      else return e;
+    });
+    setPosts(postValues);
+  };
+
   useEffect(() => {
     console.log(userData);
   }, []);
@@ -43,7 +60,10 @@ const Home = () => {
                         className="flex border border-grey-light-alt hover:border-grey rounded bg-white cursor-pointer mb-2.5"
                       >
                         <div className="w-1/12 flex flex-col text-center pt-2">
-                          <button className="text-xs">
+                          <button
+                            className="text-xs"
+                            onClick={() => upVote(data)}
+                          >
                             <svg
                               className="w-5 fill-current text-grey"
                               xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +78,10 @@ const Home = () => {
                           <span className="text-xs font-semibold my-1">
                             {data.dislikes}
                           </span>
-                          <button className="text-xs">
+                          <button
+                            className="text-xs"
+                            onClick={() => downVote(data)}
+                          >
                             <svg
                               className="w-5 fill-current text-grey"
                               xmlns="http://www.w3.org/2000/svg"
