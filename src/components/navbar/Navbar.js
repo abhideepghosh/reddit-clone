@@ -118,10 +118,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="w-2/5 flex justify-end items-center">
-            <a
-              href="#"
-              className="p-2 flex items-center rounded-sm mr-2 hover:bg-grey-lighter"
-            >
+            <a className="p-2 flex items-center rounded-sm mr-2 hover:bg-grey-lighter">
               <svg
                 className="w-4"
                 viewBox="0 0 20 20"
@@ -136,10 +133,7 @@ const Navbar = () => {
                 </g>
               </svg>
             </a>
-            <a
-              href="#"
-              className="p-2 flex items-center rounded-sm mr-2 hover:bg-grey-lighter"
-            >
+            <a className="p-2 flex items-center rounded-sm mr-2 hover:bg-grey-lighter">
               <svg
                 className="w-4"
                 xmlns="http://www.w3.org/2000/svg"
@@ -157,10 +151,7 @@ const Navbar = () => {
                 </g>
               </svg>
             </a>
-            <a
-              href="#"
-              className="p-2 flex items-center rounded-sm mr-2 hover:bg-grey-lighter"
-            >
+            <a className="p-2 flex items-center rounded-sm mr-2 hover:bg-grey-lighter">
               <svg
                 className="w-4"
                 viewBox="0 0 20 20"
@@ -178,10 +169,7 @@ const Navbar = () => {
             >
               {login}
             </Link>
-            <a
-              href="#"
-              className="border border-blue-dark bg-blue-dark text-white px-8 py-2.2 font-semibold text-xs rounded ml-4 no-underline hover:bg-blue"
-            >
+            <a className="border border-blue-dark bg-blue-dark text-white px-8 py-2.2 font-semibold text-xs rounded ml-4 no-underline hover:bg-blue">
               GET APP
             </a>
             <button className="inline-flex items-center ml-3 mr-5">

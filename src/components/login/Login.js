@@ -43,10 +43,7 @@ const Login = () => {
             </h2>
             <p className="mt-2 text-sm leading-5 text-gray-600 max-w">
               Or
-              <a
-                href="#"
-                className="font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:underline transition ease-in-out duration-150"
-              >
+              <a className="font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:underline transition ease-in-out duration-150">
                 start your 14-day free trial
               </a>
             </p>
@@ -109,10 +106,7 @@ const Login = () => {
                   </div>
 
                   <div className="text-sm leading-5">
-                    <a
-                      href="#"
-                      className="font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:underline transition ease-in-out duration-150"
-                    >
+                    <a className="font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:underline transition ease-in-out duration-150">
                       Forgot your password?
                     </a>
                   </div>

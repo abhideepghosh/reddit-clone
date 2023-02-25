@@ -90,10 +90,7 @@ const Home = () => {
                         </div>
                         <div className="w-11/12 pt-2">
                           <div className="flex items-center text-xs mb-2">
-                            <a
-                              href="#"
-                              className="font-semibold no-underline hover:underline text-black flex items-center"
-                            >
+                            <a className="font-semibold no-underline hover:underline text-black flex items-center">
                               <img
                                 className="rounded-full border h-5 w-5"
                                 src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f39e14ff-6a49-42a1-af77-8c3745471dd5/d95p5jh-7ae95b13-2979-47e1-a206-aa6ff9ee158e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2YzOWUxNGZmLTZhNDktNDJhMS1hZjc3LThjMzc0NTQ3MWRkNVwvZDk1cDVqaC03YWU5NWIxMy0yOTc5LTQ3ZTEtYTIwNi1hYTZmZjllZTE1OGUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.2Qc1AXXHbJyXFbugn29apuGrlYFwDV9a6c1QD-2mNMY"
@@ -104,10 +101,7 @@ const Home = () => {
                               •
                             </span>
                             <span className="text-grey">Posted by</span>
-                            <a
-                              href="#"
-                              className="text-grey mx-1 no-underline hover:underline"
-                            >
+                            <a className="text-grey mx-1 no-underline hover:underline">
                               u/User
                             </a>
                             <span className="text-grey">Few Minutes Ago</span>
@@ -194,10 +188,7 @@ const Home = () => {
                   </div>
                   <div className="w-11/12 pt-2">
                     <div className="flex items-center text-xs mb-2">
-                      <a
-                        href="#"
-                        className="font-semibold no-underline hover:underline text-black flex items-center"
-                      >
+                      <a className="font-semibold no-underline hover:underline text-black flex items-center">
                         <img
                           className="rounded-full border h-5 w-5"
                           src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f39e14ff-6a49-42a1-af77-8c3745471dd5/d95p5jh-7ae95b13-2979-47e1-a206-aa6ff9ee158e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2YzOWUxNGZmLTZhNDktNDJhMS1hZjc3LThjMzc0NTQ3MWRkNVwvZDk1cDVqaC03YWU5NWIxMy0yOTc5LTQ3ZTEtYTIwNi1hYTZmZjllZTE1OGUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.2Qc1AXXHbJyXFbugn29apuGrlYFwDV9a6c1QD-2mNMY"
@@ -206,10 +197,7 @@ const Home = () => {
                       </a>
                       <span className="text-grey-light mx-1 text-xxs">•</span>
                       <span className="text-grey">Posted by</span>
-                      <a
-                        href="#"
-                        className="text-grey mx-1 no-underline hover:underline"
-                      >
+                      <a className="text-grey mx-1 no-underline hover:underline">
                         u/Admin
                       </a>
                       <span className="text-grey">2 hours ago</span>
@@ -348,10 +336,7 @@ const Home = () => {
                           src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/cd1c9a80364113.5cdec491b07d9.gif"
                         />
                         <div className="flex flex-col font-medium">
-                          <a
-                            href="#"
-                            className="text-xs text-black-alt no-underline leading-tight"
-                          >
+                          <a className="text-xs text-black-alt no-underline leading-tight">
                             r/Reddit-Clone
                           </a>
                           <span className="text-xxs">1.000 subscribers</span>
@@ -370,10 +355,7 @@ const Home = () => {
                           src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/cd1c9a80364113.5cdec491b07d9.gif"
                         />
                         <div className="flex flex-col font-medium">
-                          <a
-                            href="#"
-                            className="text-xs text-black-alt no-underline leading-tight"
-                          >
+                          <a className="text-xs text-black-alt no-underline leading-tight">
                             r/Reddit-Clone
                           </a>
                           <span className="text-xxs">1.000 subscribers</span>
@@ -392,10 +374,7 @@ const Home = () => {
                           src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/cd1c9a80364113.5cdec491b07d9.gif"
                         />
                         <div className="flex flex-col font-medium">
-                          <a
-                            href="#"
-                            className="text-xs text-black-alt no-underline leading-tight"
-                          >
+                          <a className="text-xs text-black-alt no-underline leading-tight">
                             r/Reddit-Clone
                           </a>
                           <span className="text-xxs">1.000 subscribers</span>
@@ -414,10 +393,7 @@ const Home = () => {
                           src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/cd1c9a80364113.5cdec491b07d9.gif"
                         />
                         <div className="flex flex-col font-medium">
-                          <a
-                            href="#"
-                            className="text-xs text-black-alt no-underline leading-tight"
-                          >
+                          <a className="text-xs text-black-alt no-underline leading-tight">
                             r/Reddit-Clone
                           </a>
                           <span className="text-xxs">1.000 subscribers</span>
@@ -436,10 +412,7 @@ const Home = () => {
                           src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/cd1c9a80364113.5cdec491b07d9.gif"
                         />
                         <div className="flex flex-col font-medium">
-                          <a
-                            href="#"
-                            className="text-xs text-black-alt no-underline leading-tight"
-                          >
+                          <a className="text-xs text-black-alt no-underline leading-tight">
                             r/Reddit-Clone
                           </a>
                           <span className="text-xxs">1.000 subscribers</span>
@@ -457,90 +430,57 @@ const Home = () => {
                   <div className="p-3">
                     <div className="flex justify-between">
                       <div>
-                        <a
-                          href="#"
-                          className="block text-black no-underline text-xs font-medium"
-                        >
+                        <a className="block text-black no-underline text-xs font-medium">
                           About
                         </a>
-                        <a
-                          href="#"
-                          className="block text-black no-underline text-xs font-medium"
-                        >
+                        <a className="block text-black no-underline text-xs font-medium">
                           Careers
                         </a>
-                        <a
-                          href="#"
-                          className="block text-black no-underline text-xs font-medium"
-                        >
+                        <a className="block text-black no-underline text-xs font-medium">
                           Press
                         </a>
                       </div>
                       <div>
-                        <a
-                          href="#"
-                          className="block text-black no-underline text-xs font-medium"
-                        >
+                        <a className="block text-black no-underline text-xs font-medium">
                           Advertise
                         </a>
-                        <a
-                          href="#"
-                          className="block text-black no-underline text-xs font-medium"
-                        >
+                        <a className="block text-black no-underline text-xs font-medium">
                           Blog
                         </a>
-                        <a
-                          href="#"
-                          className="block text-black no-underline text-xs font-medium"
-                        >
+                        <a className="block text-black no-underline text-xs font-medium">
                           Help
                         </a>
                       </div>
                       <div>
-                        <a
-                          href="#"
-                          className="block text-black no-underline text-xs font-medium"
-                        >
+                        <a className="block text-black no-underline text-xs font-medium">
                           The Reddit App
                         </a>
-                        <a
-                          href="#"
-                          className="block text-black no-underline text-xs font-medium"
-                        >
+                        <a className="block text-black no-underline text-xs font-medium">
                           Reddit Coins
                         </a>
-                        <a
-                          href="#"
-                          className="block text-black no-underline text-xs font-medium"
-                        >
+                        <a className="block text-black no-underline text-xs font-medium">
                           Reddit Premium
                         </a>
-                        <a
-                          href="#"
-                          className="block text-black no-underline text-xs font-medium"
-                        >
+                        <a className="block text-black no-underline text-xs font-medium">
                           Reddit Gifts
                         </a>
                       </div>
                     </div>
                     <div className="text-center mt-6">
                       <p className="text-xs text-black leading-tight font-medium">
-                        <a href="#" className="text-black no-underline">
+                        <a className="text-black no-underline">
                           Content Policy
                         </a>{" "}
                         |{" "}
-                        <a href="#" className="text-black no-underline">
+                        <a className="text-black no-underline">
                           Privacy Policy
                         </a>
                       </p>
                       <p className="text-xs text-black leading-tight font-medium">
-                        <a href="#" className="text-black no-underline">
+                        <a className="text-black no-underline">
                           User Agreement
                         </a>{" "}
-                        |{" "}
-                        <a href="#" className="text-black no-underline">
-                          Mod Policy
-                        </a>
+                        | <a className="text-black no-underline">Mod Policy</a>
                       </p>
                       <p className="text-xs text-black leading-tight font-medium">
                         © 2018 Reddit, Inc. All rights reserved
