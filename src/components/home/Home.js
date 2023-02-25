@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import Header from "../mock_styles/Header";
 import "./Home.css";
@@ -42,9 +42,6 @@ const Home = () => {
     setPosts(postValues);
   };
 
-  useEffect(() => {
-    console.log(userData);
-  }, []);
   return (
     <div className="flex bg-blue-lightest flex flex-col font-sans min-h-screen">
       <div className="mt-12">
